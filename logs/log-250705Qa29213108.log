@@ -1,0 +1,16 @@
+21:31:13.458 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+21:31:14.503 INFO  manager.ApplicationManager - The link -->https://telranedu.web.app/home
+21:31:14.522 INFO  tests.TestBase - Name of method -->registrationExistsUser
+21:31:25.463 INFO  tests.TestBase - Name of method -->registrationPasswordHasNoUppercaseLetterTest
+21:31:32.519 INFO  tests.TestBase - Start test: Registration Wrong Password Has No Upper Case Letter
+21:31:36.131 INFO  tests.TestBase - Name of method -->registrationPasswordNoUppercaseNumberTest
+21:31:46.262 INFO  tests.TestBase - Name of method -->registrationSuccess
+21:31:53.327 INFO  tests.TestBase - Start test: Registration Success
+21:31:56.683 INFO  tests.TestBase - Name of method -->registrationWrongEmailRuTest
+21:31:56.766 INFO  tests.TestBase - Before method finish registration logout
+21:31:56.767 INFO  tests.TestBase - Start test: Registration Wrong Email RU
+21:31:59.800 INFO  tests.TestBase - Name of method -->registrationWrongEmailSymbolTest
+21:32:06.861 INFO  tests.TestBase - Start test: Registration Wrong Email Symbol
+21:32:10.121 INFO  tests.TestBase - Name of method -->registrationWrongPasswordIsShort
+21:32:17.178 INFO  tests.TestBase - Start test: Registration Wrong Password Is Short
+21:32:20.335 INFO  tests.TestBase - Name of method -->registrationWrongPasswordNoUppercaseSymbolTest

@@ -1,0 +1,6 @@
+21:19:03.143 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+21:19:04.416 INFO  manager.ApplicationManager - The link -->https://telranedu.web.app/home
+21:19:04.434 INFO  tests.TestBase - Name of method -->registrationSuccess
+21:19:11.451 INFO  tests.TestBase - Start test: Registration Success
+21:19:14.251 INFO  tests.TestBase - Test data email-->:
+21:19:14.268 INFO  tests.TestBase - Test data password-->:

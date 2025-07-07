@@ -1,0 +1,71 @@
+04:22:37.057 INFO  manager.ApplicationManager - All tests runs in Chrome Browser
+04:22:38.261 INFO  manager.ApplicationManager - The link -->https://telranedu.web.app/home
+04:22:45.944 INFO  tests.TestBase - Name of method -->addContactSuccessAllFields
+04:22:49.820 INFO  tests.TestBase - Name of method -->addContactSuccessReqFields
+04:22:52.164 INFO  tests.TestBase - Name of method -->addNewContactEmptyAddress
+04:22:53.512 INFO  tests.TestBase - Name of method -->addNewContactEmptyLastName
+04:22:55.276 INFO  tests.TestBase - Name of method -->addNewContactEmptyName
+04:22:57.051 INFO  tests.TestBase - Name of method -->addNewContactWrongEmailMailTest
+04:22:59.089 INFO  tests.TestBase - Name of method -->addNewContactWrongEmailRUTest
+04:23:01.082 INFO  tests.TestBase - Name of method -->addNewContactWrongEmailSymbol2Test
+04:23:03.519 INFO  tests.TestBase - Name of method -->addNewContactWrongEmailSymbolTest
+04:23:06.057 INFO  tests.TestBase - Name of method -->LoginEmptyEmailTest
+04:23:06.209 INFO  tests.TestBase - Before method finish logout
+04:23:06.958 INFO  tests.TestBase - Test data --> email : '' & password : 'Atteloiv369!'
+04:23:07.645 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:07.648 INFO  tests.TestBase - Name of method -->LoginEmptyPasswordTest
+04:23:15.194 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.ru' & password : ''
+04:23:15.779 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:15.782 INFO  tests.TestBase - Name of method -->LoginNoNumberEmailTest
+04:23:23.322 INFO  tests.TestBase - Test data --> email : 'solsrgd@mail.ru' & password : 'Atteloiv369!'
+04:23:23.914 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:23.916 INFO  tests.TestBase - Name of method -->LoginPasswordHasNoUppercaseLetterTest
+04:23:31.468 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.ru' & password : 'atteloiv369!'
+04:23:32.063 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:32.065 INFO  tests.TestBase - Name of method -->LoginPasswordNoUppercaseNumberTest
+04:23:39.696 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.ru' & password : 'Atteloiv!'
+04:23:40.285 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:40.285 INFO  tests.TestBase - Name of method -->LoginSuccessModel
+04:23:47.937 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.ru' & password : 'Atteloiv369!'
+04:23:48.406 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+04:23:48.408 INFO  tests.TestBase - Name of method -->LoginSuccessTest
+04:23:48.497 INFO  tests.TestBase - Before method finish logout
+04:23:48.501 INFO  tests.TestBase - Start test: Login Success
+04:23:49.407 INFO  tests.TestBase - Assert check is element button 'Sign out' present
+04:23:49.408 INFO  tests.TestBase - Name of method -->LoginUnRegisterUserTest
+04:23:49.499 INFO  tests.TestBase - Before method finish logout
+04:23:50.020 INFO  tests.TestBase - Test data --> email : 'solodka1998@gmail.com' & password : 'Atteloiv369!'
+04:23:50.638 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:50.643 INFO  tests.TestBase - Name of method -->LoginWrongEmailRuTest
+04:23:58.277 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.com' & password : 'Atteloiv369!'
+04:23:58.888 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:23:58.901 INFO  tests.TestBase - Name of method -->LoginWrongEmailSymbolTest
+04:24:06.487 INFO  tests.TestBase - Test data --> email : 'solodka1998mail.ru' & password : 'Atteloiv369!'
+04:24:07.603 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:24:07.608 INFO  tests.TestBase - Name of method -->LoginWrongEmailTest
+04:24:15.220 INFO  tests.TestBase - Test data --> email : 'sol1998@mail.ru' & password : 'Atteloiv369!'
+04:24:15.817 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:24:15.817 INFO  tests.TestBase - Name of method -->LoginWrongPasswordNoUppercaseSymbolTest
+04:24:23.599 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.ru' & password : 'Atteloiv369'
+04:24:24.202 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:24:24.202 INFO  tests.TestBase - Name of method -->LoginWrongPasswordTest
+04:24:31.832 INFO  tests.TestBase - Test data --> email : 'solodka1998@mail.ru' & password : 'Atkhiv369!'
+04:24:32.433 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+04:24:32.433 INFO  tests.TestBase - Name of method -->registrationExistsUser
+04:24:40.682 INFO  tests.TestBase - Name of method -->registrationPasswordHasNoUppercaseLetterTest
+04:24:47.743 INFO  tests.TestBase - Start test: Registration Wrong Password Has No Upper Case Letter
+04:24:48.882 INFO  tests.TestBase - Name of method -->registrationPasswordNoUppercaseNumberTest
+04:24:56.997 INFO  tests.TestBase - Name of method -->registrationSuccess
+04:25:04.032 INFO  tests.TestBase - Start test: Registration Success
+04:25:05.314 INFO  tests.TestBase - Name of method -->registrationWrongEmailRuTest
+04:25:05.405 INFO  tests.TestBase - Before method finish registration logout
+04:25:05.406 INFO  tests.TestBase - Start test: Registration Wrong Email RU
+04:25:06.438 INFO  tests.TestBase - Name of method -->registrationWrongEmailSymbolTest
+04:25:13.469 INFO  tests.TestBase - Start test: Registration Wrong Email Symbol
+04:25:14.808 INFO  tests.TestBase - Name of method -->registrationWrongPasswordIsShort
+04:25:21.841 INFO  tests.TestBase - Start test: Registration Wrong Password Is Short
+04:25:23.249 INFO  tests.TestBase - Name of method -->registrationWrongPasswordNoUppercaseSymbolTest
+04:25:45.794 INFO  tests.TestBase - Name of method -->removeAAFirstContact
+04:25:45.805 INFO  manager.HelperBase - Number of Contact list before remove is -->5
+04:25:46.989 INFO  manager.HelperBase - Number of Contact list after remove is -->4
+04:25:46.990 INFO  tests.TestBase - Name of method -->removeAllContacts
