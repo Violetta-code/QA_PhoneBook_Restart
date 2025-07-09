@@ -17,8 +17,6 @@ public class DataProviderUser {
         return listExample.iterator();
     }
 
-
-
     @DataProvider
     public Iterator<Object[]> loginData(){
         List<Object[]> listOfObjects=new ArrayList<>();
@@ -40,5 +38,23 @@ public class DataProviderUser {
         return list.iterator();
     }
 
+    @DataProvider
+    public Iterator<Object[]> loginFile() throws IOException {
+        List<Object[]>listData = new ArrayList<>();
+        //read from file --->add to list
+        //BufferedReader вычитывает данные из File в которые мы положили валидные данные для PhoneBook
+        // указываем что он будет читать данные из FileReader а ему уже указываем ссылку
+        // на тот файл который мы хотим чтоб он вычитал для FileReader нужен Exception
+        BufferedReader reader = new BufferedReader(new FileReader(new File("src/test/resources/ValidDataPhoneBook.csv")));
+        String line = reader.readLine(); //читай по одной строчке
+        while (line!=null){//пока не закончатся строчки
+            String[]all =  line.split(",");//разрезаем данные первой строки по запятой складываем в массив
+            //добовляем в наш лист обект в который мы передаем обьект User в который мы положили index0=email index1=password
+            listData.add(new Object[]{new User().withEmail(all[0]).withPassword(all[1])});
+            line = reader.readLine();//читай следующую строку
+        }
+
+        return listData.iterator();
+    }
 
 }

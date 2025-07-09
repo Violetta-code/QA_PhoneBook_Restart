@@ -53,6 +53,16 @@ public class LoginTests extends TestBase {
    //     return listOfObjects.iterator();
   //  }
 
+    @Test(dataProvider = "loginFile",dataProviderClass = DataProviderUser.class)
+    public void loginSuccessDPF(User user){
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        logger.info("Test data --> " + user.toString());
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().isLogged());
+        logger.info("Assert check is element button 'Sign out' present");
+
+    }
 
     @Test(dataProvider = "loginModels", dataProviderClass = DataProviderUser.class)
     public void LoginSuccessModel(User user) {
