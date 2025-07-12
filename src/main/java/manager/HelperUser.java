@@ -19,9 +19,9 @@ public class HelperUser extends HelperBase{
 
     public void openLoginRegistrationForm(){
         //a[text()='LOGIN']
-       // WebElement loginTab=wd.findElement(By.xpath(" //a[text()='LOGIN']"));
-       // loginTab.click();
-        click(By.xpath(" //a[text()='LOGIN']"));
+        WebElement loginTab=wd.findElement(By.xpath(" //a[text()='LOGIN']"));
+        loginTab.click();
+      //  click(By.xpath(" //a[text()='LOGIN']"));
     }
 
     public void fillLoginRegistrationForm(String email,String password){

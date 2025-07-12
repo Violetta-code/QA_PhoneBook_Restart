@@ -2,6 +2,7 @@ package tests;
 
 import manager.ApplicationManager;
 import manager.TestNGListener;
+import org.openqa.selenium.remote.Browser;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.testng.annotations.*;
@@ -15,30 +16,30 @@ public class TestBase {
    //подключаем Logger для отслеживания наших тестов
    Logger logger = LoggerFactory.getLogger(TestBase.class);
    //это представляет собой ссылку на класс ApplicationManager и тем самым связывает их иделаем ее статической переменной
-   static ApplicationManager app = new ApplicationManager();
+   static ApplicationManager app = new ApplicationManager(System.getProperty("browser", Browser.CHROME.browserName()));
 
    //перед каждым методом будет писать название теста
-   @BeforeMethod
+   @BeforeMethod(alwaysRun = true)
    public void startLogger(Method m){
       logger.info("Name of method -->" + m.getName());
    }
 
-   @AfterMethod
+   @AfterMethod(alwaysRun = true)
    public void end(){
       logger.info("=================================================================");
    }
 
    //
-   @BeforeSuite
+   @BeforeSuite(alwaysRun = true)
    public void setUp(){
    // Вызов метода  init() через  static ApplicationManager
    app.init();
    }
 
    //
-   @AfterSuite
+   @AfterSuite(alwaysRun = true)
    public void tearDown(){
    //  Вызов метода  stop() через  static ApplicationManager
-   app.stop();
+  // app.stop();
    }
 }

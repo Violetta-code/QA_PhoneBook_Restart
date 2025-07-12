@@ -7,7 +7,7 @@ import org.testng.annotations.Test;
 
 public class RemoveContactTests extends TestBase{
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition(){
         //если не залогинен тогда залогинься
         if(!app.getHelperUser().isLogged()){
@@ -17,13 +17,13 @@ public class RemoveContactTests extends TestBase{
         app.getHelperContact().provideContacts(); //если лист менньше 3 добавь еще 3
     }
 
-    @Test
-    public void removeAAFirstContact(){
+    @Test(priority = 1,groups = {"smoke"})
+    public void removeFirstContact(){
         //проверка что длинна листа стала на один меньше
         Assert.assertEquals(app.getHelperContact().removeOneContact(),1);
     }
 
-    @Test
+    @Test(priority = 2)
     public void removeAllContacts(){
         //проверка что список пуст
         app.getHelperContact().removeAllContacts();

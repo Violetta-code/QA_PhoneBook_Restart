@@ -1,0 +1,442 @@
+16:17:25.668 INFO  manager.ApplicationManager - All tests runs in FIREFOX Browser
+16:17:26.433 INFO  manager.WDListener - Url-->https://telranedu.web.app/
+16:17:28.165 INFO  manager.ApplicationManager - The link -->https://telranedu.web.app/home
+16:17:28.182 INFO  manager.TestNGListener - Start testing on date -->Sat Jul 12 16:17:28 IDT 2025
+16:17:28.203 INFO  tests.TestBase - Name of method -->LoginNoNumberEmailTest
+16:17:33.222 INFO  manager.TestNGListener - Start test -->LoginNoNumberEmailTest
+16:17:33.223 INFO  manager.WDListener - Before Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:33.250 INFO  manager.WDListener - After Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:33.258 INFO  manager.WDListener - Location of element :(1810, 34)
+16:17:33.273 INFO  manager.WDListener - Before Click Element:atext = LOGIN
+16:17:33.533 INFO  manager.WDListener - After Click Element:atext = LOGIN
+16:17:33.534 INFO  manager.WDListener - Before Find Element:By.name: email
+16:17:33.554 INFO  manager.WDListener - After Find Element:By.name: email
+16:17:33.563 INFO  manager.WDListener - Location of element :(760, 250)
+16:17:33.576 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:33.854 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:33.884 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:33.903 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:33.932 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:33.932 INFO  manager.WDListener - Before Find Element:By.name: password
+16:17:33.946 INFO  manager.WDListener - After Find Element:By.name: password
+16:17:33.956 INFO  manager.WDListener - Location of element :(760, 320)
+16:17:33.966 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:34.198 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:34.224 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:34.242 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:34.266 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:34.266 INFO  tests.TestBase - Test data --> email : 'solsrgd@mail.ru' & password : 'Atteloiv369!'
+16:17:34.267 INFO  manager.WDListener - Before Find Element:By.xpath: //button[text()='Login']
+16:17:34.282 INFO  manager.WDListener - After Find Element:By.xpath: //button[text()='Login']
+16:17:34.285 INFO  manager.WDListener - Location of element :(760, 390)
+16:17:34.296 INFO  manager.WDListener - Before Click Element:buttontext = Login
+16:17:34.553 INFO  manager.WDListener - I have a problem!!!
+16:17:34.553 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@255eaa6b
+16:17:34.553 INFO  manager.WDListener - ******************
+16:17:34.553 INFO  manager.WDListener - Method name -->alert
+16:17:34.553 INFO  manager.WDListener - ******************
+16:17:34.553 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1daf530-c3c0-44b9-88ac-a99d5a2fe681, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.4, moz:accessibilityChecks: false, moz:buildID: 20250707120347, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29984, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d1daf530-c3c0-44b9-88ac-a99d5a2fe681
+16:17:34.553 INFO  manager.WDListener - ******************
+16:17:35.069 INFO  manager.WDListener - I have a problem!!!
+16:17:35.069 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@895416d
+16:17:35.069 INFO  manager.WDListener - ******************
+16:17:35.069 INFO  manager.WDListener - Method name -->alert
+16:17:35.069 INFO  manager.WDListener - ******************
+16:17:35.071 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1daf530-c3c0-44b9-88ac-a99d5a2fe681, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.4, moz:accessibilityChecks: false, moz:buildID: 20250707120347, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29984, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d1daf530-c3c0-44b9-88ac-a99d5a2fe681
+16:17:35.072 INFO  manager.WDListener - ******************
+16:17:35.601 INFO  manager.WDListener - I have a problem!!!
+16:17:35.601 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@2eae4349
+16:17:35.601 INFO  manager.WDListener - ******************
+16:17:35.601 INFO  manager.WDListener - Method name -->alert
+16:17:35.601 INFO  manager.WDListener - ******************
+16:17:35.601 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1daf530-c3c0-44b9-88ac-a99d5a2fe681, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.4, moz:accessibilityChecks: false, moz:buildID: 20250707120347, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29984, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d1daf530-c3c0-44b9-88ac-a99d5a2fe681
+16:17:35.601 INFO  manager.WDListener - ******************
+16:17:36.151 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+16:17:36.153 INFO  manager.TestNGListener - Success test -->LoginNoNumberEmailTest
+16:17:36.154 INFO  tests.TestBase - =================================================================
+16:17:36.156 INFO  tests.TestBase - Name of method -->LoginWrongEmailSymbolTest
+16:17:41.167 INFO  manager.TestNGListener - Start test -->LoginWrongEmailSymbolTest
+16:17:41.168 INFO  manager.WDListener - Before Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:41.180 INFO  manager.WDListener - After Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:41.188 INFO  manager.WDListener - Location of element :(1808, 33)
+16:17:41.202 INFO  manager.WDListener - Before Click Element:atext = LOGIN
+16:17:41.435 INFO  manager.WDListener - After Click Element:atext = LOGIN
+16:17:41.435 INFO  manager.WDListener - Before Find Element:By.name: email
+16:17:41.446 INFO  manager.WDListener - After Find Element:By.name: email
+16:17:41.451 INFO  manager.WDListener - Location of element :(760, 281)
+16:17:41.461 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:41.695 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:41.728 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:41.747 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:41.774 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:41.774 INFO  manager.WDListener - Before Find Element:By.name: password
+16:17:41.786 INFO  manager.WDListener - After Find Element:By.name: password
+16:17:41.793 INFO  manager.WDListener - Location of element :(760, 351)
+16:17:41.804 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:42.024 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:42.049 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:42.068 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:42.092 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:42.092 INFO  tests.TestBase - Test data --> email : 'solodka1998mail.ru' & password : 'Atteloiv369!'
+16:17:42.093 INFO  manager.WDListener - Before Find Element:By.xpath: //button[text()='Login']
+16:17:42.109 INFO  manager.WDListener - After Find Element:By.xpath: //button[text()='Login']
+16:17:42.114 INFO  manager.WDListener - Location of element :(760, 421)
+16:17:42.126 INFO  manager.WDListener - Before Click Element:buttontext = Login
+16:17:42.371 INFO  manager.WDListener - I have a problem!!!
+16:17:42.371 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@6edf29c1
+16:17:42.371 INFO  manager.WDListener - ******************
+16:17:42.371 INFO  manager.WDListener - Method name -->alert
+16:17:42.371 INFO  manager.WDListener - ******************
+16:17:42.371 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1daf530-c3c0-44b9-88ac-a99d5a2fe681, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.4, moz:accessibilityChecks: false, moz:buildID: 20250707120347, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29984, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d1daf530-c3c0-44b9-88ac-a99d5a2fe681
+16:17:42.371 INFO  manager.WDListener - ******************
+16:17:42.933 INFO  tests.TestBase - Assert check is  alert present with text 'Wrong email or password'
+16:17:42.933 INFO  manager.TestNGListener - Success test -->LoginWrongEmailSymbolTest
+16:17:42.935 INFO  tests.TestBase - =================================================================
+16:17:42.937 INFO  tests.TestBase - Name of method -->registrationExistsUser
+16:17:47.945 INFO  manager.TestNGListener - Start test -->registrationExistsUser
+16:17:47.946 INFO  manager.WDListener - Before Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:47.964 INFO  manager.WDListener - After Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:47.972 INFO  manager.WDListener - Location of element :(1808, 33)
+16:17:47.985 INFO  manager.WDListener - Before Click Element:atext = LOGIN
+16:17:48.209 INFO  manager.WDListener - After Click Element:atext = LOGIN
+16:17:48.210 INFO  manager.WDListener - Before Find Element:By.name: email
+16:17:48.223 INFO  manager.WDListener - After Find Element:By.name: email
+16:17:48.230 INFO  manager.WDListener - Location of element :(760, 281)
+16:17:48.240 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:48.466 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:48.502 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:48.521 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:48.547 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:48.548 INFO  manager.WDListener - Before Find Element:By.name: password
+16:17:48.560 INFO  manager.WDListener - After Find Element:By.name: password
+16:17:48.566 INFO  manager.WDListener - Location of element :(760, 351)
+16:17:48.575 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:48.803 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:48.835 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:48.856 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:48.878 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:48.878 INFO  manager.WDListener - Before Find Element:By.xpath: //button[text()='Registration']
+16:17:48.892 INFO  manager.WDListener - After Find Element:By.xpath: //button[text()='Registration']
+16:17:48.896 INFO  manager.WDListener - Location of element :(1010, 421)
+16:17:48.905 INFO  manager.WDListener - Before Click Element:buttontext = Registration
+16:17:49.147 INFO  manager.WDListener - I have a problem!!!
+16:17:49.148 INFO  manager.WDListener - Object target --> org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator@2a367e93
+16:17:49.148 INFO  manager.WDListener - ******************
+16:17:49.148 INFO  manager.WDListener - Method name -->alert
+16:17:49.148 INFO  manager.WDListener - ******************
+16:17:49.149 INFO  manager.WDListener - InvocationTargetExceptionorg.openqa.selenium.NoAlertPresentException: Build info: version: '4.16.1', revision: '9b4c83354e'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.12'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [d1daf530-c3c0-44b9-88ac-a99d5a2fe681, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 140.0.4, moz:accessibilityChecks: false, moz:buildID: 20250707120347, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29984, moz:profile: C:\Users\HP\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: d1daf530-c3c0-44b9-88ac-a99d5a2fe681
+16:17:49.149 INFO  manager.WDListener - ******************
+16:17:49.700 INFO  manager.TestNGListener - Success test -->registrationExistsUser
+16:17:49.701 INFO  tests.TestBase - =================================================================
+16:17:49.702 INFO  tests.TestBase - Name of method -->registrationSuccess
+16:17:54.712 INFO  manager.TestNGListener - Start test -->registrationSuccess
+16:17:54.713 INFO  tests.TestBase - Start test: Registration Success
+16:17:54.713 INFO  manager.WDListener - Before Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:54.727 INFO  manager.WDListener - After Find Element:By.xpath:  //a[text()='LOGIN']
+16:17:54.732 INFO  manager.WDListener - Location of element :(1808, 33)
+16:17:54.746 INFO  manager.WDListener - Before Click Element:atext = LOGIN
+16:17:54.981 INFO  manager.WDListener - After Click Element:atext = LOGIN
+16:17:54.982 INFO  manager.WDListener - Before Find Element:By.name: email
+16:17:54.994 INFO  manager.WDListener - After Find Element:By.name: email
+16:17:55.000 INFO  manager.WDListener - Location of element :(760, 281)
+16:17:55.015 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:55.255 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:55.292 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:55.316 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:55.352 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:55.352 INFO  manager.WDListener - Before Find Element:By.name: password
+16:17:55.366 INFO  manager.WDListener - After Find Element:By.name: password
+16:17:55.371 INFO  manager.WDListener - Location of element :(760, 351)
+16:17:55.384 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:55.613 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:55.647 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:55.666 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:55.690 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:55.692 INFO  manager.WDListener - Before Find Element:By.xpath: //button[text()='Registration']
+16:17:55.705 INFO  manager.WDListener - After Find Element:By.xpath: //button[text()='Registration']
+16:17:55.711 INFO  manager.WDListener - Location of element :(1010, 421)
+16:17:55.723 INFO  manager.WDListener - Before Click Element:buttontext = Registration
+16:17:56.048 INFO  manager.WDListener - Before Find Element:By.cssSelector: .contact-page_message__2qafk>h1
+16:17:56.395 INFO  manager.WDListener - After Find Element:By.cssSelector: .contact-page_message__2qafk>h1
+16:17:56.400 INFO  manager.WDListener - Location of element :(825, 271)
+16:17:56.411 INFO  manager.TestNGListener - Success test -->registrationSuccess
+16:17:56.412 INFO  tests.TestBase - =================================================================
+16:17:56.432 INFO  tests.TestBase - Name of method -->addContactSuccessAllFields
+16:17:56.433 INFO  manager.TestNGListener - Start test -->addContactSuccessAllFields
+16:17:56.436 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='ADD']
+16:17:56.450 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='ADD']
+16:17:56.454 INFO  manager.WDListener - Location of element :(1515, 34)
+16:17:56.466 INFO  manager.WDListener - Before Click Element:atext = ADD
+16:17:56.704 INFO  manager.WDListener - After Click Element:atext = ADD
+16:17:56.704 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Name']
+16:17:56.718 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Name']
+16:17:56.724 INFO  manager.WDListener - Location of element :(300, 165)
+16:17:56.745 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:56.991 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:57.021 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.044 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.071 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.071 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Last Name']
+16:17:57.083 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Last Name']
+16:17:57.089 INFO  manager.WDListener - Location of element :(300, 239)
+16:17:57.100 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:57.339 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:57.364 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.382 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.404 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.404 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Phone']
+16:17:57.414 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Phone']
+16:17:57.418 INFO  manager.WDListener - Location of element :(300, 313)
+16:17:57.428 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:57.660 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:57.696 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.722 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.764 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:57.767 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='email']
+16:17:57.800 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='email']
+16:17:57.812 INFO  manager.WDListener - Location of element :(300, 387)
+16:17:57.837 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:58.081 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:58.108 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.149 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.188 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.189 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder = 'Address']
+16:17:58.201 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder = 'Address']
+16:17:58.206 INFO  manager.WDListener - Location of element :(300, 461)
+16:17:58.216 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:58.440 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:58.469 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.486 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.504 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.504 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='description']
+16:17:58.513 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='description']
+16:17:58.517 INFO  manager.WDListener - Location of element :(300, 535)
+16:17:58.526 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:17:58.759 INFO  manager.WDListener - After Click Element:inputtext = 
+16:17:58.778 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.795 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:58.829 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:17:59.047 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='Save']
+16:17:59.059 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='Save']
+16:17:59.063 INFO  manager.WDListener - Location of element :(950, 622)
+16:17:59.073 INFO  manager.WDListener - Before Click Element:btext = Save
+16:17:59.290 INFO  manager.WDListener - After Click Element:btext = Save
+16:17:59.681 INFO  manager.TestNGListener - Success test -->addContactSuccessAllFields
+16:17:59.683 INFO  tests.TestBase - =================================================================
+16:17:59.710 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='ADD']
+16:17:59.721 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='ADD']
+16:17:59.725 INFO  manager.WDListener - Location of element :(1515, 34)
+16:17:59.736 INFO  manager.WDListener - Before Click Element:atext = ADD
+16:17:59.958 INFO  manager.WDListener - After Click Element:atext = ADD
+16:17:59.958 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Name']
+16:17:59.970 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Name']
+16:17:59.973 INFO  manager.WDListener - Location of element :(300, 165)
+16:17:59.982 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:00.214 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:00.234 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.249 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.269 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.270 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Last Name']
+16:18:00.279 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Last Name']
+16:18:00.283 INFO  manager.WDListener - Location of element :(300, 239)
+16:18:00.291 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:00.516 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:00.545 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.562 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.583 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.583 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Phone']
+16:18:00.593 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Phone']
+16:18:00.598 INFO  manager.WDListener - Location of element :(300, 313)
+16:18:00.609 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:00.834 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:00.851 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.868 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.888 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:00.888 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='email']
+16:18:00.898 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='email']
+16:18:00.903 INFO  manager.WDListener - Location of element :(300, 387)
+16:18:00.911 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:01.139 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:01.162 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.178 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.204 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.204 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder = 'Address']
+16:18:01.213 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder = 'Address']
+16:18:01.217 INFO  manager.WDListener - Location of element :(300, 461)
+16:18:01.226 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:01.454 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:01.475 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.492 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.511 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.512 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='description']
+16:18:01.523 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='description']
+16:18:01.526 INFO  manager.WDListener - Location of element :(300, 535)
+16:18:01.537 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:01.756 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:01.777 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.796 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.821 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:01.821 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='Save']
+16:18:01.839 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='Save']
+16:18:01.843 INFO  manager.WDListener - Location of element :(950, 622)
+16:18:01.852 INFO  manager.WDListener - Before Click Element:btext = Save
+16:18:02.591 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='ADD']
+16:18:02.601 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='ADD']
+16:18:02.605 INFO  manager.WDListener - Location of element :(1515, 34)
+16:18:02.614 INFO  manager.WDListener - Before Click Element:atext = ADD
+16:18:02.844 INFO  manager.WDListener - After Click Element:atext = ADD
+16:18:02.844 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Name']
+16:18:02.853 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Name']
+16:18:02.857 INFO  manager.WDListener - Location of element :(300, 165)
+16:18:02.867 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:03.101 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:03.128 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.147 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.169 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.169 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Last Name']
+16:18:03.180 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Last Name']
+16:18:03.184 INFO  manager.WDListener - Location of element :(300, 239)
+16:18:03.193 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:03.416 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:03.436 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.452 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.470 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.471 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Phone']
+16:18:03.481 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Phone']
+16:18:03.484 INFO  manager.WDListener - Location of element :(300, 313)
+16:18:03.492 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:03.719 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:03.741 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.756 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.780 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:03.780 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='email']
+16:18:03.791 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='email']
+16:18:03.794 INFO  manager.WDListener - Location of element :(300, 387)
+16:18:03.802 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:04.036 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:04.056 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.073 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.096 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.096 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder = 'Address']
+16:18:04.106 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder = 'Address']
+16:18:04.110 INFO  manager.WDListener - Location of element :(300, 461)
+16:18:04.120 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:04.350 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:04.371 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.385 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.407 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.407 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='description']
+16:18:04.417 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='description']
+16:18:04.421 INFO  manager.WDListener - Location of element :(300, 535)
+16:18:04.429 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:04.654 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:04.674 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.690 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.709 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:04.709 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='Save']
+16:18:04.720 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='Save']
+16:18:04.723 INFO  manager.WDListener - Location of element :(950, 622)
+16:18:04.732 INFO  manager.WDListener - Before Click Element:btext = Save
+16:18:04.957 INFO  manager.WDListener - After Click Element:btext = Save
+16:18:05.462 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='ADD']
+16:18:05.472 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='ADD']
+16:18:05.475 INFO  manager.WDListener - Location of element :(1515, 34)
+16:18:05.484 INFO  manager.WDListener - Before Click Element:atext = ADD
+16:18:05.714 INFO  manager.WDListener - After Click Element:atext = ADD
+16:18:05.714 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Name']
+16:18:05.724 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Name']
+16:18:05.728 INFO  manager.WDListener - Location of element :(300, 165)
+16:18:05.736 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:05.974 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:05.995 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.014 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.037 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.037 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Last Name']
+16:18:06.048 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Last Name']
+16:18:06.052 INFO  manager.WDListener - Location of element :(300, 239)
+16:18:06.061 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:06.286 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:06.306 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.323 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.339 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.339 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='Phone']
+16:18:06.349 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='Phone']
+16:18:06.353 INFO  manager.WDListener - Location of element :(300, 313)
+16:18:06.361 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:06.582 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:06.599 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.615 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.638 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.638 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='email']
+16:18:06.650 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='email']
+16:18:06.653 INFO  manager.WDListener - Location of element :(300, 387)
+16:18:06.661 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:06.891 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:06.912 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.939 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.961 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:06.962 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder = 'Address']
+16:18:06.972 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder = 'Address']
+16:18:06.976 INFO  manager.WDListener - Location of element :(300, 461)
+16:18:06.985 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:07.204 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:07.225 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:07.240 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:07.258 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:07.259 INFO  manager.WDListener - Before Find Element:By.cssSelector: [placeholder='description']
+16:18:07.269 INFO  manager.WDListener - After Find Element:By.cssSelector: [placeholder='description']
+16:18:07.272 INFO  manager.WDListener - Location of element :(300, 535)
+16:18:07.280 INFO  manager.WDListener - Before Click Element:inputtext = 
+16:18:07.504 INFO  manager.WDListener - After Click Element:inputtext = 
+16:18:07.523 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:07.540 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:07.569 INFO  manager.WDListener - After Send Keys Element:inputtext
+16:18:07.569 INFO  manager.WDListener - Before Find Element:By.xpath: //*[text()='Save']
+16:18:07.579 INFO  manager.WDListener - After Find Element:By.xpath: //*[text()='Save']
+16:18:07.584 INFO  manager.WDListener - Location of element :(950, 622)
+16:18:07.593 INFO  manager.WDListener - Before Click Element:btext = Save
+16:18:07.822 INFO  manager.WDListener - After Click Element:btext = Save
+16:18:08.328 INFO  tests.TestBase - Name of method -->removeFirstContact
+16:18:08.329 INFO  manager.TestNGListener - Start test -->removeFirstContact
+16:18:08.354 INFO  manager.HelperBase - Number of Contact list before remove is -->4
+16:18:08.354 INFO  manager.WDListener - Before Find Element:By.cssSelector: .contact-item_card__2SOIM
+16:18:08.365 INFO  manager.WDListener - After Find Element:By.cssSelector: .contact-item_card__2SOIM
+16:18:08.369 INFO  manager.WDListener - Location of element :(288, 150)
+16:18:08.384 INFO  manager.WDListener - Before Click Element:divtext = Back1356
+05287651356
+16:18:08.624 INFO  manager.WDListener - After Click Element:divtext = Back1356
+05287651356
+16:18:08.624 INFO  manager.WDListener - Before Find Element:By.xpath: //button[text()='Remove']
+16:18:08.634 INFO  manager.WDListener - After Find Element:By.xpath: //button[text()='Remove']
+16:18:08.639 INFO  manager.WDListener - Location of element :(888, 371)
+16:18:08.648 INFO  manager.WDListener - Before Click Element:buttontext = Remove
+16:18:08.869 INFO  manager.WDListener - After Click Element:buttontext = Remove
+16:18:09.903 INFO  manager.HelperBase - Number of Contact list after remove is -->3
+16:18:09.903 INFO  manager.TestNGListener - Success test -->removeFirstContact
+16:18:09.903 INFO  tests.TestBase - =================================================================
+16:18:09.904 INFO  manager.TestNGListener - Finish testing on date -->Sat Jul 12 16:18:09 IDT 2025

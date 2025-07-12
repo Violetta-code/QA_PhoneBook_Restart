@@ -75,7 +75,7 @@ public class LoginTests extends TestBase {
         logger.info("Assert check is element button 'Sign out' present");
     }
 
-    @Test
+    @Test(groups = {"smoke","retest"})
     public void LoginWrongEmailSymbolTest() {
 
         app.getHelperUser().openLoginRegistrationForm();
@@ -114,7 +114,7 @@ public class LoginTests extends TestBase {
 
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void LoginNoNumberEmailTest() {
 
         app.getHelperUser().openLoginRegistrationForm();

@@ -19,7 +19,7 @@ public class RegistrationTest extends TestBase{
         }
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationSuccess(){
         logger.info("Start test: Registration Success");
         //рандомная переменная для подставления числа в маил чтоб каждый раз при рег был новый маил
@@ -36,11 +36,11 @@ public class RegistrationTest extends TestBase{
     }
 
 
-    @Test
+    @Test(priority = 1)
     public void registrationWrongEmailSymbolTest() {
         logger.info("Start test: Registration Wrong Email Symbol");
 
-        User user = new User().withEmail("viamail.ru").withPassword("Via12345$");
+        User user = new User().withEmail("solodka19mail.ru").withPassword("Via12345$");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -53,7 +53,7 @@ public class RegistrationTest extends TestBase{
     public void registrationWrongEmailRuTest() {
         logger.info("Start test: Registration Wrong Email RU");
 
-        User user = new User().withEmail("via@mail.com").withPassword("Via12345$");
+        User user = new User().withEmail("solodka19@mail.com").withPassword("Via12345$");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -66,11 +66,13 @@ public class RegistrationTest extends TestBase{
     public void registrationWrongPasswordIsShort() {
         logger.info("Start test: Registration Wrong Password Is Short");
 
-        User user = new User().withEmail("via@mail.ru").withPassword("Vi23!");
+        User user = new User().withEmail("solodka19@mail.ru").withPassword("Viol23!");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitRegistration();
+
+        app.getHelperUser().pause(3000);
 
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password format"));
 
@@ -80,7 +82,7 @@ public class RegistrationTest extends TestBase{
     public void registrationPasswordHasNoUppercaseLetterTest() {
         logger.info("Start test: Registration Wrong Password Has No Upper Case Letter");
 
-        User user = new User().withEmail("via@mail.ru").withPassword("atteloiv369!");
+        User user = new User().withEmail("solodka19@mail.ru").withPassword("atteloiv369!");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -90,7 +92,7 @@ public class RegistrationTest extends TestBase{
 
     @Test
     public void registrationPasswordNoUppercaseNumberTest() {
-        User user = new User().withEmail("via@mail.ru").withPassword("Atteloiv!");
+        User user = new User().withEmail("solodka19@mail.ru").withPassword("Atteloiv!");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -100,7 +102,7 @@ public class RegistrationTest extends TestBase{
 
     @Test
     public void registrationWrongPasswordNoUppercaseSymbolTest() {
-        User user = new User().withEmail("via@mail.ru").withPassword("Atteloiv369");
+        User user = new User().withEmail("solodka19@mail.ru").withPassword("Atteloiv369");
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -108,7 +110,7 @@ public class RegistrationTest extends TestBase{
         Assert.assertTrue(app.getHelperUser().isAlertPresent("Wrong email or password"));
     }
 
-    @Test
+    @Test(groups = {"smoke"})
     public void registrationExistsUser() {
         User user = new User().withEmail("solodka1998@mail.ru").withPassword("Atteloiv369!");
 

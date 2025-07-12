@@ -12,7 +12,7 @@ import java.util.Random;
 
 public class AddNewContactTests extends TestBase{
 
-    @BeforeClass
+    @BeforeClass(alwaysRun = true)
     public void preCondition(){
         //если не залогинен тогда залогинься
         if(!app.getHelperUser().isLogged()){
@@ -21,7 +21,7 @@ public class AddNewContactTests extends TestBase{
         }
     }
 
-    @Test
+    @Test(groups = {"smoke","retest","reset"})
     public void addContactSuccessAllFields(){
         // создание рандома можно так же с классом System написать
         int i = new Random().nextInt(1000)+1000;
